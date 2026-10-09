@@ -156,4 +156,4 @@ allure generate allure-results -o allure-report --clean
 - **钩子** `hookwrapper=True` 让你能在 pytest 生成报告的前后"插一脚"。
 - **Allure**:`pytest.ini` 里的 `--alluredir=allure-results` 负责产出结果;**`allure` 命令行要单独装**;用 `allure serve allure-results` 打开报告;失败用例的详情里能看到"失败截图"附件。
 
-下一篇《07 项目复盘与面试话术》把整个项目用 STAR 讲一遍,并给出面试高频问答。
+到这里，六篇学习笔记就结束了。建议的复习顺序：`01 → 02 → 03 → 05 → 04 → 06`。
