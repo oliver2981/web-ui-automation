@@ -65,11 +65,19 @@ pytest                 # 结果写入 allure-results/
 allure serve allure-results
 ```
 
+报告概览(9 条用例全部通过、通过率 100%):
+
+![Allure 报告概览](docs/images/allure-report.png)
+
+用例失败时会自动截图并附加到报告,失败现场一目了然:
+
+![失败自动截图](docs/images/allure-failure-screenshot.png)
+
 ## 测试覆盖
 
 | 模块 | 用例文件 | 覆盖点 |
 |---|---|---|
 | 登录 | test_login.py | 标准用户成功、锁定用户、错误密码 |
-| 商品 | test_products.py | 进入商品页、加购角标 |
+| 商品 | test_products.py | 进入商品页、加购角标、按价格排序 |
 | 购物车 | test_cart.py | 加购后商品出现在购物车 |
 | 结算 | test_checkout.py | 完整下单流程 |
