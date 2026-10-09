@@ -9,3 +9,6 @@ STANDARD_PASSWORD = "secret_sauce"
 
 # 元素等待超时(毫秒)
 DEFAULT_TIMEOUT_MS = 10000
+
+# 页面导航超时(毫秒)。导航比元素等待更慢,单独给足时间,避免比 Playwright 默认的 30s 更严格
+NAVIGATION_TIMEOUT_MS = 45000
