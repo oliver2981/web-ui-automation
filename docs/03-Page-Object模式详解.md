@@ -22,7 +22,7 @@ def test_another_login(page):
     page.locator("[data-test='username']").fill("standard_user")
     page.locator("[data-test='password']").fill("secret_sauce")
     page.locator("[data-test='login-button']").click()
-    assert page.locator("[data-test='title']").inner_text() == "Inventory"
+    assert page.locator("[data-test='title']").inner_text() == "Products"
 ```
 
 看出来问题了吗?
